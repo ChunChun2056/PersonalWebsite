@@ -24,9 +24,7 @@ body{
 
 nav{
     display: flex;
-    justify-content: space-around;
-    padding-left: 64px;
-    padding-right: 64px;
+    justify-content: space-between;
 
 }
 
@@ -58,9 +56,9 @@ li{
 li a{
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
-    color: gray;
+    color: rgb(63, 63, 63);
 }
 
 li a:hover{
@@ -122,20 +120,34 @@ button{
     font-family: 'Noto Sans', sans-serif;
     font-weight: 800;
     font-size: 64px;
-    margin: 0;
-    padding-bottom: 16px;
-}
-
-.hero-text span{
-    color: #111;
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    padding-left: 4px;
+    margin-top: 0;
     margin-bottom: 16px;
 }
 
+.hero-text .h1-color{
+    color: #A900E4;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.hero-text p{
+    color: #111;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding-left: 4px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.hero-text .text-color{
+    color: #A900E4;
+    font-weight: 600;
+}
 
 .my-works{
     background: white;
@@ -148,23 +160,23 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 64px;
+    padding-top: 128px;
 }
 
 .my-work-title h2{
     color: #111;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 800;
-    font-size: 52px;
-    margin: 0;
-    padding-bottom: 16px;
+    font-size: 56px;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 .my-work-title span{
     text-align: center;
     color: #111;
     font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 32px;
 }
@@ -218,7 +230,53 @@ button{
 }
 
 
+.my-project-section{
+    background-color: white;
+}
 
+.projects{
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.category{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.project-title{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.project-link{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration-line: underline;
+}
+
+.project-image img{
+    border-radius: 16px;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.project-image img:hover{
+    box-shadow: 0px 0px 15.1px 0px rgba(0, 0, 0, 0.064);
+    -webkit-transform: scale(1.01);
+	transform: scale(1.01);
+}
 
 @media screen and (max-width: 768px) {
 
