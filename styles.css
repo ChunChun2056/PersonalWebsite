@@ -112,7 +112,6 @@ button{
     flex-direction: column;
     justify-content: center;
     margin-right: 128px;
-    min-width: fit-content;
 }
 
 .hero-text h1{
@@ -225,7 +224,7 @@ button{
 	transform: scale(1.01);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
 
     nav{
         flex-direction: column;
@@ -300,7 +299,7 @@ button{
     }
 
     .hero-text h1{
-        font-size: 38px;
+        font-size: 32px;
     }
 
     .hero-text .h1-color{
