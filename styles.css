@@ -301,6 +301,7 @@ button{
 
     .hero-text h1{
         font-size: 32px;
+        margin-bottom: 8px;
     }
 
     .hero-text .h1-color{
