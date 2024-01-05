@@ -291,8 +291,8 @@ button{
     }
 
     .hero-image img{
-        width: 142px;
-        height: 245.187px;
+        width: auto;
+        height: 260px;
     }
 
     .hero-text{
