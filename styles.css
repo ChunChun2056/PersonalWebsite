@@ -90,7 +90,8 @@ button{
 }
 
 .hero-section{
-    height: 814px;
+    margin-top: 256px;
+    margin-bottom: 256px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -282,6 +283,7 @@ button{
         align-items: center;
         justify-content: center;
         gap:16px;
+        margin: 128px 16px;
     }
 
     .hero-image{
