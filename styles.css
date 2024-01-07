@@ -29,7 +29,8 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 .logo {
@@ -153,13 +154,6 @@ button {
     color: #A900E4;
     font-weight: 600;
 }
-
-.btn-link{
-    display: flex;
-    justify-content: left;
-    align-content: center;
-}
-
 
 .my-project-section {
     background-color: white;
@@ -429,26 +423,24 @@ button {
     }
 
     .hero-image img {
-        height: 270px;
+        height: 300px;
     }
 
     .hero-text {
-        align-items: center;
         margin: 0;
     }
 
     .hero-text h1 {
-        font-size: 32px;
+        font-size: 48px;
         margin-bottom: 8px;
     }
 
     .hero-text .h1-color {
-        font-size: 38px;
+        font-size: 48px;
     }
 
     .hero-text p {
         font-size: 14px;
-        text-align: center;
     }
 
     .my-work-title h2 {
