@@ -265,8 +265,18 @@ li a:hover {
     transform: scale(1.01);
 }
 
+.vm-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    gap: 6px;
+}
 
-@media screen and (max-width: 1000px){
+
+@media screen and (max-width: 1100px){
     .hero-section {
         gap: 32px;
         margin: 128px 16px;
@@ -307,9 +317,30 @@ li a:hover {
         max-width: 500px;
     }
 
+    .category {
+        font-size: 16px;
+    }
+    
+    .projects{
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .project-title {
+        font-size: 42px;
+    }
+    
+    .project-link {
+        font-size: 18px;
+    }
+    
+    .project-image img {
+        width: 400px;
+    }
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
     nav {
         flex-direction: column;
         margin: 0 16px;
@@ -562,7 +593,7 @@ li a:hover {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 850px) {
     .hamburger {
         display: none;
     }
