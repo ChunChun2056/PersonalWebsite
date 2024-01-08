@@ -1,14 +1,8 @@
+var hamburgerIcon = document.querySelector(".hamburger").querySelector(".hamburger-icon");
 
-const nameOfElement = document.querySelector(".nav-items")
-var dd = "closed"
-function dropdown(){
-    nameOfElement.style.display="flex";
-    if(dd == "closed"){
-        nameOfElement.style.display="block";
-        dd="opened";
-    }
-    else{
-        nameOfElement.style.display="none";
-        dd="closed";
-    }
-}
+hamburgerIcon.addEventListener("click", (event) => {
+  const nav = document.querySelector(".nav-items");
+  var navStyle = nav.dataset.menustyle;
+  nav.dataset.menustyle = navStyle == "closed" ? "opened" : "closed";
+  console.log("Working")
+});
