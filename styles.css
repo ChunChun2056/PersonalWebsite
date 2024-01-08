@@ -55,6 +55,7 @@ nav {
 
   .nav-items[data-menustyle="open"] {}
 
+
 ul {
     list-style-type: none;
     display: flex;
@@ -78,7 +79,7 @@ li a {
 }
 
 li a:hover {
-    color: black;
+    color: #b91bf3;
 }
 
 .button {
@@ -92,15 +93,19 @@ li a:hover {
     width: 150px;
     height: 42px;
     padding: 10px 20px;
-    background: #A900E4;
-    color: white;
-    border: 0;
+    color: rgb(63, 63, 63);
+    background: white;
+    border: solid 2px rgb(63, 63, 63);
     border-radius: 4px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 600;
     font-size: 14px;
 }
 
+.btn-secondary:hover {
+    color: #b91bf3;
+    border: solid 2px #b91bf3;
+}
 
 .btn-primary {
     width: 150px;
@@ -113,6 +118,10 @@ li a:hover {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 600;
     font-size: 14px;
+}
+
+.btn-primary:hover{
+    background: #b91bf3;
 }
 
 .hamburger {
@@ -204,6 +213,16 @@ li a:hover {
 }
 
 .my-work-title span {
+    color: #A900E4;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+
+.my-work-title p {
     text-align: center;
     color: #111;
     font-family: 'Noto Sans', sans-serif;
@@ -273,6 +292,16 @@ li a:hover {
     font-weight: 700;
     font-size: 18px;
     gap: 6px;
+    
+}
+
+.vm-btn a{
+    text-decoration: none;
+    color: #111;
+}
+
+.vm-btn a:hover{
+    color:#b91bf3
 }
 
 
