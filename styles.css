@@ -10,7 +10,7 @@
 body {
     margin: 0 0;
     background: rgb(247, 247, 247);
-    
+
 }
 
 .container {
@@ -51,9 +51,9 @@ nav {
 
 .nav-items[data-menustyle="closed"] {
     display: none;
-  }
+}
 
-  .nav-items[data-menustyle="open"] {}
+.nav-items[data-menustyle="open"] {}
 
 
 ul {
@@ -73,7 +73,7 @@ li {
 li a {
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     color: rgb(63, 63, 63);
     cursor: pointer;
@@ -94,9 +94,9 @@ li a:hover {
     width: 150px;
     height: 42px;
     padding: 10px 20px;
-    color: rgb(63, 63, 63);
+    color: #111;
     background: white;
-    border: solid 2px rgb(63, 63, 63);
+    border: solid 2px #111;
     border-radius: 4px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 600;
@@ -123,7 +123,7 @@ li a:hover {
     cursor: pointer;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background: #b91bf3;
 }
 
@@ -196,7 +196,7 @@ li a:hover {
 }
 
 
-.my-work-title {
+.section-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,7 +205,7 @@ li a:hover {
 
 }
 
-.my-work-title h2 {
+.section-title h2 {
     color: #111;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 800;
@@ -214,7 +214,7 @@ li a:hover {
     margin-bottom: 16px;
 }
 
-.my-work-title span {
+.section-title span {
     color: #A900E4;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 800;
@@ -224,7 +224,7 @@ li a:hover {
 }
 
 
-.my-work-title p {
+.section-title p {
     text-align: center;
     color: #111;
     font-family: 'Noto Sans', sans-serif;
@@ -284,7 +284,7 @@ li a:hover {
     transform: scale(1.01);
 }
 
-.vm-btn{
+.vm-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -295,17 +295,104 @@ li a:hover {
     padding-bottom: 128px;
 }
 
-.vm-btn a{
+.vm-btn a {
     text-decoration: none;
     color: #111;
 }
 
-.vm-btn a:hover{
-    color:#b91bf3
+.vm-btn a:hover {
+    color: #b91bf3
 }
 
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-bottom: 128px;
+}
 
-@media screen and (max-width: 1100px){
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.image img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    align-items: left;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.text h3 {
+    margin: 0px;
+    padding-top: 24px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text p {
+    margin: 0px;
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 24px;
+}
+
+.contact-form-inner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.contact-form-left img{
+    height: 300px;
+}
+
+.contact-form-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.form-text{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+}
+
+label{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+input{
+    padding: 8px 16px;
+    width: 600px;
+    border-radius: 4px;
+    border: 1px solid #111;
+    background: white;
+}
+
+@media screen and (max-width: 1100px) {
     .hero-section {
         gap: 32px;
         margin: 128px 16px;
@@ -322,26 +409,26 @@ li a:hover {
     .hero-text {
         margin: 0;
     }
-    
+
     .hero-text h1 {
         font-size: 52px;
     }
-    
+
     .hero-text .h1-color {
         font-size: 52px;
     }
-    
+
 
     .hero-text p {
         font-size: 18px;
         max-width: 500px;
     }
 
-    .my-work-title h2 {
+    .section-title h2 {
         font-size: 48px;
     }
 
-    .my-work-title span {
+    .section-title span {
         font-size: 48px;
         max-width: 500px;
     }
@@ -349,8 +436,8 @@ li a:hover {
     .category {
         font-size: 16px;
     }
-    
-    .projects{
+
+    .projects {
         margin-left: 24px;
         margin-right: 24px;
     }
@@ -358,11 +445,11 @@ li a:hover {
     .project-title {
         font-size: 42px;
     }
-    
+
     .project-link {
         font-size: 18px;
     }
-    
+
     .project-image img {
         width: 400px;
     }
@@ -383,7 +470,7 @@ li a:hover {
 
     .nav-items[data-menustyle="closed"] {
         display: none;
-      }
+    }
 
     ul {
         flex-direction: column;
@@ -451,15 +538,15 @@ li a:hover {
         text-align: center;
     }
 
-    .my-work-title h2 {
+    .section-title h2 {
         font-size: 32px;
     }
 
-    .my-work-title span {
+    .section-title span {
         font-size: 32px;
     }
 
-    .my-work-title p {
+    .section-title p {
         max-width: 600px;
     }
 
@@ -511,7 +598,7 @@ li a:hover {
 
     .nav-items[data-menustyle="closed"] {
         display: none;
-      }
+    }
 
     ul {
         flex-direction: column;
@@ -575,31 +662,31 @@ li a:hover {
         margin-bottom: 8px;
     }
 
-    .hero-text .h1-color{
+    .hero-text .h1-color {
         font-size: 32px;
     }
 
     .hero-text p {
-        font-size: 12px;
+        font-size: 18px;
         text-align: center;
         padding: 0;
     }
 
-    .my-work-title{
+    .section-title {
         margin-left: 16px;
         margin-right: 16px;
     }
 
-    .my-work-title h2 {
+    .section-title h2 {
         font-size: 32px;
     }
 
-    .my-work-title span {
+    .section-title span {
         font-size: 32px;
         max-width: 370px;
     }
 
-    .my-work-title p {
+    .section-title p {
         font-size: 12px;
         max-width: 400px;
     }
