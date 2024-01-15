@@ -667,7 +667,7 @@ input{
     }
 
     .hero-text p {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         padding: 0;
     }
@@ -687,7 +687,7 @@ input{
     }
 
     .section-title p {
-        font-size: 12px;
+        font-size: 16px;
         max-width: 400px;
     }
 
