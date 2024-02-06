@@ -782,6 +782,7 @@ input{
     .section-title {
         margin-left: 16px;
         margin-right: 16px;
+        padding-top: 64px;
     }
 
     .section-title h2 {
@@ -863,6 +864,15 @@ input{
     .vm-btn{
         padding-bottom: 64px;
         font-size: 16px;
+    }
+
+    .cards{
+        padding-bottom: 64px;
+    }
+
+    .contact-form-inner{
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 
 }
