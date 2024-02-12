@@ -89,7 +89,10 @@ li a:hover {
 }
 
 .btn-secondary {
-    width: 150px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 160px;
     height: 42px;
     padding: 10px 20px;
     color: #111;
@@ -125,6 +128,31 @@ li a:hover {
 
 .btn-primary:hover {
     background: #b91bf3;
+}
+
+.btn-link{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.btn-hover-port{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.btn-link a{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #111;
+    transition:  0.3s ease;
+}
+
+.btn-link a:hover {
+    color: #b91bf3;
 }
 
 .hamburger {
@@ -317,6 +345,15 @@ li a:hover {
     gap: 32px;
     flex-wrap: wrap;
     padding-bottom: 128px;
+    cursor: pointer;
+}
+
+.cards-1{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-bottom: 32px;
     cursor: pointer;
 }
 
@@ -799,6 +836,9 @@ input{
         max-width: 400px;
     }
 
+    .btn-link{
+        gap: 16px;
+    }
 
     .projects {
         flex-direction: column;
