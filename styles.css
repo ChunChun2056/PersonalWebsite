@@ -95,9 +95,9 @@ li a:hover {
     width: 160px;
     height: 42px;
     padding: 10px 20px;
-    color: #111;
-    background: white;
-    border: solid 2px #111;
+    color: white;
+    background: #A900E4;
+    border: none;
     border-radius: 4px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 600;
@@ -107,17 +107,16 @@ li a:hover {
 }
 
 .btn-secondary:hover {
-    color: #b91bf3;
-    border: solid 2px #b91bf3;
+    background-color: #b91bf3;
 }
 
 .btn-primary {
     width: 150px;
     height: 42px;
     padding: 10px 20px;
-    background: #A900E4;
-    color: white;
-    border: 0;
+    background: rgb(247, 247, 247);
+    color: #111;
+    border: 2px solid #111;
     border-radius: 4px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 600;
@@ -127,7 +126,8 @@ li a:hover {
 }
 
 .btn-primary:hover {
-    background: #b91bf3;
+    color: #b91bf3;
+    border: 2px solid #b91bf3;
 }
 
 .btn-link{
