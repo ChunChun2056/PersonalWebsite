@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 body {
@@ -86,6 +89,10 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.button a{
+    text-decoration: none;
 }
 
 .btn-secondary {
