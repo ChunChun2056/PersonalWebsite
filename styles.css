@@ -295,7 +295,8 @@ li a:hover {
     display: flex;
     flex-shrink: 0;
     align-items: center;
-    justify-content: space-around;
+    gap: 64px;
+    justify-content: center;
     margin-top: 64px;
     margin-bottom: 64px;
     padding-bottom: 64px;
@@ -307,7 +308,7 @@ li a:hover {
 
 .category {
     font-family: 'Noto Sans', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
 }
 
@@ -941,6 +942,10 @@ input{
     .contact-form-inner{
         padding-top: 64px;
         padding-bottom: 64px;
+    }
+    
+    .btn-primary-2{
+        width: 300px;
     }
 
 }
