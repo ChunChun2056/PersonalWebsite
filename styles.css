@@ -567,6 +567,37 @@ input{
     width: 500px;
 }
 
+.modal{
+    max-width: 1200px;
+    padding: 32px;
+    border: 0;
+    border-radius: 5px;
+    margin: auto;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #111;
+  }
+  
+ .modal::backdrop{
+    background: #111;
+    opacity: 80%;
+ }
+
+  .modal button{
+    width: 300px;
+  }
+  
+  .modal h2{
+    font-size: 24px;
+    line-height: 4px;
+    padding-bottom: 24px;
+  }
+  
+  .modal p{
+    padding-bottom: 16px;
+  }
+
 @media screen and (max-width: 1100px) {
     .hero-section {
         gap: 32px;
