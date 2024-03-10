@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -20,7 +20,7 @@ html{
     top: calc(var(--circle-size) / 2 * -1);
     left: calc(var(--circle-size) / 2 * -1);
     pointer-events: none;
-  }
+}
 
 
 body {
@@ -93,7 +93,7 @@ li a {
     font-size: 14px;
     color: rgb(63, 63, 63);
     cursor: pointer;
-    transition:  0.3s ease;
+    transition: 0.3s ease;
 }
 
 li a:hover {
@@ -106,7 +106,7 @@ li a:hover {
     align-items: center;
 }
 
-.button a{
+.button a {
     text-decoration: none;
 }
 
@@ -125,7 +125,7 @@ li a:hover {
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-    transition:  0.3s ease;
+    transition: 0.3s ease;
 }
 
 .btn-secondary:hover {
@@ -144,7 +144,7 @@ li a:hover {
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-    transition:  0.3s ease;
+    transition: 0.3s ease;
 }
 
 .btn-primary:hover {
@@ -152,7 +152,7 @@ li a:hover {
     border: 2px solid #b91bf3;
 }
 
-.btn-primary-2{
+.btn-primary-2 {
     width: 500px;
     height: 42px;
     padding: 10px 20px;
@@ -164,7 +164,7 @@ li a:hover {
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-    transition:  0.3s ease;
+    transition: 0.3s ease;
 }
 
 .btn-primary-2:hover {
@@ -172,25 +172,25 @@ li a:hover {
 }
 
 
-.btn-link{
+.btn-link {
     display: flex;
     align-items: center;
     gap: 22px;
 }
 
-.btn-hover-port{
+.btn-hover-port {
     display: flex;
     align-items: center;
     gap: 4px;
 }
 
-.btn-link a{
+.btn-link a {
     text-decoration: none;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #111;
-    transition:  0.3s ease;
+    transition: 0.3s ease;
 }
 
 .btn-link a:hover {
@@ -342,7 +342,7 @@ li a:hover {
     cursor: pointer;
 }
 
-.project-link a{
+.project-link a {
     text-decoration: none;
     color: inherit;
 }
@@ -391,7 +391,7 @@ li a:hover {
     cursor: pointer;
 }
 
-.cards-1{
+.cards-1 {
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -400,7 +400,7 @@ li a:hover {
     cursor: pointer;
 }
 
-.card-links{
+.card-links {
     text-decoration: none;
     color: inherit;
 }
@@ -419,7 +419,7 @@ li a:hover {
     transition: .3s ease-in-out;
 }
 
-.card-container:hover{
+.card-container:hover {
     box-shadow: 0px 0px 15.1px 0px rgba(0, 0, 0, 0.064);
     -webkit-transform: scale(1.01);
     transform: scale(1.01);
@@ -457,11 +457,11 @@ li a:hover {
     padding-bottom: 16px;
 }
 
-.contact-form{
+.contact-form {
     background-color: white;
 }
 
-.contact-form-inner{
+.contact-form-inner {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -470,11 +470,11 @@ li a:hover {
     padding-bottom: 128px;
 }
 
-.contact-form-left img{
+.contact-form-left img {
     height: 300px;
 }
 
-.contacts{
+.contacts {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -485,27 +485,27 @@ li a:hover {
     font-family: 'Noto Sans', sans-serif;
 }
 
-.contacts h3{
+.contacts h3 {
     font-weight: 700;
     font-size: 20px;
 }
 
-.contacts p{
+.contacts p {
     font-weight: 400;
     font-size: 16px;
 }
 
-.contacts a{
+.contacts a {
     text-decoration: none;
     color: #111;
     font-weight: 500;
 }
 
-.contacts a{
+.contacts a {
     text-decoration: none;
 }
 
-.contacts .icons-social{
+.contacts .icons-social {
     padding-top: 16px;
     padding-bottom: 16px;
     display: flex;
@@ -514,7 +514,7 @@ li a:hover {
     gap: 32px;
 }
 
-.contact-form-right{
+.contact-form-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -522,32 +522,32 @@ li a:hover {
     gap: 32px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.form-text h3{
+.form-text h3 {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 800;
     font-size: 56px;
 }
 
-.form-text span{
+.form-text span {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 800;
     font-size: 56px;
     color: #A900E4;
 }
 
-label{
+label {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
 
-input{
+input {
     padding: 8px 16px;
     width: 500px;
     border-radius: 4px;
@@ -558,7 +558,7 @@ input{
     font-size: 14px;
 }
 
-textarea{
+textarea {
     border-radius: 4px;
     border: 1px solid rgb(220, 220, 220);
     background: white;
@@ -571,16 +571,16 @@ textarea{
     resize: none;
 }
 
-.end{
+.end {
     background-color: #111;
     height: 50px;
 }
 
-.contact-form-right .btn-primary{
+.contact-form-right .btn-primary {
     width: 500px;
 }
 
-.modal{
+.modal {
     max-width: 1200px;
     padding: 32px;
     border: 0;
@@ -590,26 +590,74 @@ textarea{
     font-weight: 400;
     font-size: 16px;
     color: #111;
-  }
-  
- .modal::backdrop{
+}
+
+.modal::backdrop {
     background: #111;
     opacity: 80%;
- }
+}
 
-  .modal button{
+.modal button {
     width: 300px;
-  }
-  
-  .modal h2{
+}
+
+.modal h2 {
     font-size: 24px;
     line-height: 4px;
     padding-bottom: 24px;
-  }
-  
-  .modal p{
+}
+
+.modal p {
     padding-bottom: 16px;
-  }
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 96px;
+    padding-bottom: 64px;
+    gap: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #b91bf3;
+}
+
+.blog-heading h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 42px;
+    color: #111;
+}
+
+.blog-paragraph-text{
+    margin-left: 256px;
+    margin-right: 256px;
+    padding-top: 64px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+.paragraph{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap:12px;
+    padding-bottom: 46px;
+}
+
+.paragraph h2{
+    font-size: 24px;
+}
+
+.paragraph p{
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+}
 
 @media screen and (max-width: 1100px) {
     .hero-section {
@@ -673,7 +721,7 @@ textarea{
         width: 400px;
     }
 
-    .form-text{
+    .form-text {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -806,7 +854,7 @@ textarea{
         font-size: 32px;
     }
 
-    .form-text{
+    .form-text {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -923,7 +971,7 @@ textarea{
         max-width: 400px;
     }
 
-    .btn-link{
+    .btn-link {
         gap: 16px;
     }
 
@@ -958,51 +1006,51 @@ textarea{
         font-size: 32px;
     }
 
-    input{
+    input {
         width: 300px;
     }
 
-    .contact-form-right .btn-primary{
+    .contact-form-right .btn-primary {
         width: 300px;
     }
 
-    form{
-       align-items: center;
+    form {
+        align-items: center;
     }
 
-    .form-text h3{
+    .form-text h3 {
         font-size: 32px;
     }
 
-    .form-text span{
+    .form-text span {
         font-size: 32px;
     }
 
-    .contact-form-left img{
+    .contact-form-left img {
         height: 200px;
     }
 
-    .form-text{
+    .form-text {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .vm-btn{
+    .vm-btn {
         padding-bottom: 64px;
         font-size: 16px;
     }
 
-    .cards{
+    .cards {
         padding-bottom: 64px;
     }
 
-    .contact-form-inner{
+    .contact-form-inner {
         padding-top: 64px;
         padding-bottom: 64px;
     }
-    
-    .btn-primary-2{
+
+    .btn-primary-2 {
         width: 300px;
     }
 
