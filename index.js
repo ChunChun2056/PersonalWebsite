@@ -78,12 +78,16 @@ tick();
 
 
 const modal = document.querySelector(".modal");
-const openModal = document.querySelector(".open-modal");
+// const openModal = document.querySelector(".open-modal");
 const closeModal = document.querySelector(".close-button");
+url = new URL(window.location.href);
 
-openModal.addEventListener("click", () => {
+if (url.searchParams.has('success')) {
   modal.showModal();
-});
+}
+// openModal.addEventListener("click", () => {
+//   modal.showModal();
+// });
 
 closeModal.addEventListener("click", () => {
   modal.close();
