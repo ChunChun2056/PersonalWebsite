@@ -558,6 +558,19 @@ input{
     font-size: 14px;
 }
 
+textarea{
+    border-radius: 4px;
+    border: 1px solid rgb(220, 220, 220);
+    background: white;
+    padding: 8px 16px;
+    width: 500px;
+    height: 100px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    resize: none;
+}
+
 .end{
     background-color: #111;
     height: 50px;
