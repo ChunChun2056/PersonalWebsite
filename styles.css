@@ -338,13 +338,22 @@ li a:hover {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 500;
     font-size: 22px;
-    text-decoration-line: underline;
     cursor: pointer;
+    color: #111;
+    transition: 0.3s ease;
+}
+
+.project-link:hover{
+    color: #A900E4;
 }
 
 .project-link a {
     text-decoration: none;
     color: inherit;
+}
+
+.project-headings a{
+    text-decoration: none;
 }
 
 .project-image img {
@@ -861,6 +870,10 @@ textarea {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .project-headings a{
+        text-decoration: none;
     }
 
     .project-headings .category {
